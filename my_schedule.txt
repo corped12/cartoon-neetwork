@@ -1,0 +1,666 @@
+# my_schedule.txt - generated from the Cartoon Network listing on tvinsider.com
+# (HTML page saved 2026-11-03 10:02 PM; covers 2026-11-03 from 2:45 PM through 2026-11-18 about 6:30 PM).
+#
+# One line per slot:   DAY  TIME  Show title  [| optional episode name]
+#   DAY  = a date (2026-11-04) for one specific day, OR a weekly pattern such as
+#          Mon-Fri, Sat,Sun, weekdays, weekends, daily
+#   TIME = 24-hour (15:30) or 12-hour (3:30 PM)
+# If a date has any lines, ONLY those lines are used for that day; otherwise the weekly
+# lines (if any) are used. Lines starting with # are ignored.
+#
+# The file holds the WHOLE channel schedule, including the late-night and early-morning
+# adult programming. cn_jellyfin_addon.py hides everything outside SCHEDULE_HOURS
+# (default 06:00 to 17:00) so the app only shows the kids' daytime lineup.
+# Days after 2026-11-18 have no lines, so the schedule is empty there until you add more.
+# NOTE: Adult Swim / Toonami programming has been removed from this file; only Cartoon Network shows remain.
+
+2026-11-03 14:45 The Amazing World of Gumball | The Debt
+2026-11-03 15:00 The Amazing World of Gumball | The Gumball Chronicles: Vote Gumball...and Penny?
+2026-11-03 15:15 The Amazing World of Gumball | The Gumball Chronicles: Vote Gumball...and Leslie?
+2026-11-03 15:30 The Amazing World of Gumball | The Gumball Chronicles: Vote Gumball...and Bobert?
+2026-11-03 15:45 The Amazing World of Gumball | The Gumball Chronicles: Vote Gumball...and Anyone?
+2026-11-03 16:00 Regular Show | Terror Tales of the Park IV
+2026-11-03 16:30 Regular Show | Expert or Liar
+2026-11-03 16:45 Regular Show: The Lost Tapes | Artist's Block
+2026-11-04 06:00 Batwheels | Ski Blanket Bingo
+2026-11-04 06:12 Bugs Bunny Builders | Baseball Bunnies
+2026-11-04 06:28 Regular Show | Catching the Wave
+2026-11-04 06:40 Regular Show | Gold Watch
+2026-11-04 06:56 Tom and Jerry | Count On Merli
+2026-11-04 07:00 Regular Show | Paint Job
+2026-11-04 07:12 Regular Show | Take the Cake
+2026-11-04 07:28 The Amazing World of Gumball: Darwin’s Yearbook | Banana Joe
+2026-11-04 07:40 The Amazing World of Gumball: Darwin’s Yearbook | Clayton
+2026-11-04 07:56 The Amazing World of Gumball: Darwin’s Yearbook | Carrie
+2026-11-04 08:08 The Amazing World of Gumball: Darwin’s Yearbook | Alan
+2026-11-04 08:24 Teen Titans Go! | Whodundidit?
+2026-11-04 08:36 Teen Titans Go! | Sweet Revenge
+2026-11-04 08:52 Teen Titans Go! | Porch Pirates
+2026-11-04 09:04 Clarence | Suspended
+2026-11-04 09:16 Clarence | Goose Chase
+2026-11-04 09:32 Clarence | Chimney
+2026-11-04 09:44 Clarence | Dust Buddies
+2026-11-04 10:00 What’s New Scooby-Doo? | There's No Creature Like Snow Creature
+2026-11-04 10:30 What’s New Scooby-Doo? | Space Ape at the Cape
+2026-11-04 11:00 The Scooby-Doo Show | Watch Out! The Willawaw!
+2026-11-04 11:30 The Scooby-Doo Show | To Switch a Witch
+2026-11-04 12:00 Looney Tunes | Baby Buggy Bunny
+2026-11-04 12:10 Looney Tunes | Bell Hoppy
+2026-11-04 12:20 Looney Tunes | Bugs and Thugs
+2026-11-04 12:30 Tom and Jerry | Pup on a Picnic
+2026-11-04 12:40 Tom & Jerry | Mouse for Sale
+2026-11-04 12:50 Tom & Jerry | Tom and Chérie
+2026-11-04 13:00 Teen Titans Go! | A Sticky Situation
+2026-11-04 13:15 Teen Titans Go! | The Perfect Pitch?
+2026-11-04 13:30 Teen Titans Go! | Pool Season
+2026-11-04 13:45 Teen Titans Go! | Kyle
+2026-11-04 14:00 The Amazing World of Gumball: Darwin’s Yearbook | Sarah
+2026-11-04 14:15 The Amazing World of Gumball: Darwin’s Yearbook | Teachers
+2026-11-04 14:30 The Amazing World of Gumball | The End
+2026-11-04 14:45 The Amazing World of Gumball | The Dress
+2026-11-04 15:00 The Amazing World of Gumball | The Quest
+2026-11-04 15:15 The Amazing World of Gumball | The Spoon
+2026-11-04 15:30 The Amazing World of Gumball | The Pressure
+2026-11-04 15:45 The Amazing World of Gumball | The Painting
+2026-11-04 16:00 Regular Show | Skips in the Saddle
+2026-11-04 16:15 Regular Show | Thomas Fights Back
+2026-11-04 16:30 Regular Show | Bachelor Party! Zingo!
+2026-11-04 16:45 Regular Show: The Lost Tapes | Clean the Living Room
+2026-11-05 06:00 Batwheels | Double Trouble
+2026-11-05 06:12 Bugs Bunny Builders | Splash Zone
+2026-11-05 06:28 Regular Show | Tent Trouble
+2026-11-05 06:40 Regular Show | Real Date
+2026-11-05 06:56 Tom and Jerry | Ice Ice Paradise
+2026-11-05 07:00 Regular Show | Maxin' and Relaxin'
+2026-11-05 07:12 Regular Show | New Bro on Campus
+2026-11-05 07:28 The Amazing World of Gumball | The Laziest
+2026-11-05 07:40 The Amazing World of Gumball | The Ghost
+2026-11-05 07:56 The Amazing World of Gumball | The Mystery
+2026-11-05 08:08 The Amazing World of Gumball | The Prank
+2026-11-05 08:24 Teen Titans Go! | TV Knight 7
+2026-11-05 08:36 Teen Titans Go! | We'll Be Right Back
+2026-11-05 08:52 Teen Titans Go! | Jump City Rock
+2026-11-05 09:04 Clarence | Hoofin' It
+2026-11-05 09:16 Clarence | Hairence
+2026-11-05 09:32 Clarence | Chalmers Santiago
+2026-11-05 09:44 Clarence | Patients
+2026-11-05 10:00 What’s New Scooby-Doo? | 3-D Struction
+2026-11-05 10:30 What’s New Scooby-Doo? | Big Scare in the Big Easy
+2026-11-05 11:00 The Scooby-Doo Show | A Creepy Tangle in the Bermuda Triangle
+2026-11-05 11:30 The Scooby-Doo Show | The Creepy Case of Old Iron Face
+2026-11-05 12:00 Looney Tunes | Design for Leaving
+2026-11-05 12:10 Looney Tunes | Satan's Waitin'
+2026-11-05 12:20 Looney Tunes | Portrait of the Artist as a Young Bunny
+2026-11-05 12:30 Tom and Jerry | Smarty Cat
+2026-11-05 12:40 Tom & Jerry | Pecos Pest
+2026-11-05 12:50 Tom and Jerry | That's My Mommy
+2026-11-05 13:00 Teen Titans Go! | Natural Gas
+2026-11-05 13:15 Teen Titans Go! | 50% Chad
+2026-11-05 13:30 Teen Titans Go! | The Score
+2026-11-05 13:45 Teen Titans Go! | 365!
+2026-11-05 14:00 The Amazing World of Gumball | The GI
+2026-11-05 14:15 The Amazing World of Gumball | The Kiss
+2026-11-05 14:30 The Amazing World of Gumball | The Party
+2026-11-05 14:45 The Amazing World of Gumball | The Refund
+2026-11-05 15:00 The Amazing World of Gumball | The Robot
+2026-11-05 15:15 The Amazing World of Gumball | The Picnic
+2026-11-05 15:30 The Amazing World of Gumball | The Goons
+2026-11-05 15:45 The Amazing World of Gumball | The Secret
+2026-11-05 16:00 Regular Show | Daddy Issues
+2026-11-05 16:15 Regular Show | The End of Muscle Man
+2026-11-05 16:30 Regular Show | Lift With Your Back
+2026-11-05 16:45 Regular Show: The Lost Tapes | Artist's Block
+2026-11-06 06:00 Batwheels | Ski Blanket Bingo
+2026-11-06 06:12 Bugs Bunny Builders | Ice Creamed
+2026-11-06 06:28 Regular Show | Eileen Flat Screen
+2026-11-06 06:40 Regular Show | White Elephant Gift Exchange
+2026-11-06 06:56 The Heroic Quest of the Valiant Prince Ivandoe | The Prince and the Thiefstress
+2026-11-06 07:00 Regular Show | Merry Christmas Mordecai
+2026-11-06 07:12 Regular Show | Sad Sax
+2026-11-06 07:28 The Amazing World of Gumball | The Sock
+2026-11-06 07:40 The Amazing World of Gumball | The Genius
+2026-11-06 07:56 The Amazing World of Gumball | The Poltergeist
+2026-11-06 08:08 The Amazing World of Gumball | The Mustache
+2026-11-06 08:24 Teen Titans Go! | TV Knight 8
+2026-11-06 08:36 Teen Titans Go! | A Stickier Situation
+2026-11-06 08:52 Teen Titans Go! | The Wishbone
+2026-11-06 09:04 Clarence | Nothing Ventured
+2026-11-06 09:16 Clarence | Jeff Wins
+2026-11-06 09:32 Grizzy and the Lemmings | Safari Express
+2026-11-06 09:40 Grizzy and the Lemmings | False Children
+2026-11-06 09:48 Grizzy and the Lemmings | Game of Stone
+2026-11-06 10:00 What’s New Scooby-Doo? | It's Mean, It's Green, It's the Mystery Machine
+2026-11-06 10:30 What’s New Scooby-Doo? | Riva Ras Regas
+2026-11-06 11:00 The Scooby-Doo Show | A Highland Fling With a Monstrous Thing
+2026-11-06 11:30 The Scooby-Doo Show | A Scary Night with a Snow Beast Fright
+2026-11-06 12:00 Looney Tunes | No Parking Hare
+2026-11-06 12:10 Looney Tunes | Claws for Alarm
+2026-11-06 12:20 Looney Tunes | Little Boy Boo
+2026-11-06 12:30 Tom and Jerry | The Flying Sorceress
+2026-11-06 12:40 Tom & Jerry | Muscle Beach Tom
+2026-11-06 12:50 Tom and Jerry | Down Beat Bear
+2026-11-06 13:00 Teen Titans Go! | Space House
+2026-11-06 14:00 The Amazing World of Gumball | The Date
+2026-11-06 14:15 The Amazing World of Gumball | The Club
+2026-11-06 14:30 The Amazing World of Gumball | The Wand
+2026-11-06 14:45 The Amazing World of Gumball | The Ape
+2026-11-06 15:00 The Amazing World of Gumball | The Car
+2026-11-06 15:15 The Amazing World of Gumball | The Curse
+2026-11-06 15:30 The Amazing World of Gumball | The Microwave
+2026-11-06 15:45 The Amazing World of Gumball | The Meddler
+2026-11-06 16:00 Regular Show | The Real Thomas
+2026-11-06 16:30 Regular Show | Park Managers' Lunch
+2026-11-06 16:45 Regular Show: The Lost Tapes | Clean the Living Room
+2026-11-07 06:00 The Amazing World of Gumball | The Potion
+2026-11-07 06:15 The Amazing World of Gumball | The Spinoffs
+2026-11-07 06:30 The Amazing World of Gumball | The Transformation
+2026-11-07 06:45 The Amazing World of Gumball | The Understanding
+2026-11-07 07:00 The Amazing World of Gumball | The Ad
+2026-11-07 07:15 The Amazing World of Gumball | The Ghouls
+2026-11-07 07:30 Regular Show | Mordecai and Rigby Down Under
+2026-11-07 07:45 Regular Show | Married and Broke
+2026-11-07 08:00 Regular Show | I See Turtles
+2026-11-07 08:15 Regular Show | Format Wars II
+2026-11-07 08:30 Regular Show | Happy Birthday Song Contest
+2026-11-07 08:45 Regular Show | Benson's Suit
+2026-11-07 09:00 Regular Show: The Lost Tapes | That's Funny
+2026-11-07 09:15 Regular Show: The Lost Tapes | Artist's Block
+2026-11-07 09:30 Grizzy and the Lemmings | Tam-Tam Lemming
+2026-11-07 09:40 Grizzy and the Lemmings | Ice Madness!
+2026-11-07 09:50 Grizzy and the Lemmings | In Your Dreams
+2026-11-07 10:00 Teen Titans Go! | Teen Titans Action
+2026-11-07 10:30 Teen Titans Go! | Winning a Golf Tournament Is the Solution to All of Life's Money Problems
+2026-11-07 10:45 Teen Titans Go! | Always Be Crimefighting
+2026-11-07 11:00 Craig of the Creek | JP's Bucket List
+2026-11-07 11:15 Craig of the Creek | The Little Warrior
+2026-11-07 11:30 The Amazing World of Gumball | The Stink
+2026-11-07 11:45 The Amazing World of Gumball | The Awareness
+2026-11-07 12:00 The Amazing World of Gumball | The Slip
+2026-11-07 12:15 The Amazing World of Gumball | The Drama
+2026-11-07 12:30 The Amazing World of Gumball | The Buddy
+2026-11-07 12:45 The Amazing World of Gumball | The Possession
+2026-11-07 13:00 The Amazing World of Gumball | The Master
+2026-11-07 13:15 The Amazing World of Gumball | The Silence
+2026-11-07 13:30 Tiny Toons Looniversity | Whatever Happened to Babsy Bunny
+2026-11-07 14:00 Tom and Jerry | Barbecue Brawl
+2026-11-07 14:10 Tom and Jerry | Tops With Pops
+2026-11-07 14:20 Tom and Jerry | Timid Tabby
+2026-11-07 14:30 Looney Tunes | Devil May Hare
+2026-11-07 14:40 Looney Tunes | Bewitched Bunny
+2026-11-07 14:50 Looney Tunes | Stop! Look! and Hasten!
+2026-11-07 15:00 Scooby-Doo, Where Are You! | Bedlam in the Big Top
+2026-11-07 15:30 Scooby-Doo, Where Are You! | A Gaggle of Galloping Ghosts
+2026-11-07 16:00 What’s New Scooby-Doo? | Roller Ghoster Ride!
+2026-11-07 16:30 What’s New Scooby-Doo? | Safari So Goodie!
+2026-11-08 06:00 Tom & Jerry | Mucho Mouse
+2026-11-08 06:10 Tom and Jerry | Tom's Photo Finish
+2026-11-08 06:20 Tom & Jerry | Happy Go Ducky
+2026-11-08 06:30 Tom and Jerry | Royal Cat Nap
+2026-11-08 06:40 Tom and Jerry | The Vanishing Duck
+2026-11-08 06:50 Tom & Jerry | Tot Watchers
+2026-11-08 07:00 Looney Tunes | Dr. Jerkyl's Hide
+2026-11-08 07:10 Looney Tunes | Quack Shot
+2026-11-08 07:20 Looney Tunes | Sheep Ahoy
+2026-11-08 07:30 Looney Tunes | Hyde and Hare
+2026-11-08 07:40 Looney Tunes | Soup or Sonic
+2026-11-08 07:50 Looney Tunes | This Is a Life
+2026-11-08 08:00 Scooby-Doo, Where Are You! | Scooby-Doo and a Mummy Too
+2026-11-08 08:30 Scooby-Doo, Where Are You! | Which Witch Is Which?
+2026-11-08 09:00 What’s New Scooby-Doo? | She Sees Sea Monsters by the Sea Shore
+2026-11-08 09:30 What’s New Scooby-Doo? | Toy Scary Boo
+2026-11-08 10:00 Tiny Toons Looniversity | Things That Go Tweet in the Woods
+2026-11-08 10:30 Jellystone! | Augie-Mented Reality
+2026-11-08 10:45 Jellystone! | Space Con
+2026-11-08 11:00 Grizzy and the Lemmings | Tam-Tam Lemming
+2026-11-08 11:10 Grizzy and the Lemmings | Ice Madness!
+2026-11-08 11:20 Grizzy and the Lemmings | In Your Dreams
+2026-11-08 11:30 We Bare Bears | Crowbar Jones: Origins
+2026-11-08 11:45 We Bare Bears | Hot Sauce
+2026-11-08 12:00 We Bare Bears | Mom App
+2026-11-08 12:15 We Bare Bears | The Limo
+2026-11-08 12:30 Clarence | Turtle Hats
+2026-11-08 12:45 Clarence | Goldfish Follies
+2026-11-08 13:00 Clarence | Straight Illin
+2026-11-08 13:15 Clarence | Hurricane Dilliss
+2026-11-08 13:30 Teen Titans Go! | The Brain of the Family
+2026-11-08 14:00 Teen Titans Go! | Always Be Crimefighting
+2026-11-08 14:15 Teen Titans Go! | Looking for Love
+2026-11-08 14:30 The Amazing World of Gumball | The Future
+2026-11-08 14:45 The Amazing World of Gumball | The Wish
+2026-11-08 15:00 The Amazing World of Gumball | The Factory
+2026-11-08 15:15 The Amazing World of Gumball | The Agent
+2026-11-08 15:30 Regular Show | Gamers Never Say Die
+2026-11-08 15:45 Regular Show | 1000th Chopper Flight Party
+2026-11-08 16:00 Regular Show | Party Horse
+2026-11-08 16:15 Regular Show | Men in Uniform
+2026-11-08 16:30 Regular Show: The Lost Tapes | Artist's Block
+2026-11-08 16:45 Regular Show: The Lost Tapes | That's Funny
+2026-11-09 06:00 Batwheels | The Holographic Heist
+2026-11-09 06:12 Bugs Bunny Builders | Race Track Race
+2026-11-09 06:28 Regular Show | Garage Door
+2026-11-09 06:40 Regular Show | Not Great Double Date
+2026-11-09 06:56 Tom and Jerry | Colourful Chase
+2026-11-09 07:00 Regular Show | Death Kwon Do-Livery
+2026-11-09 07:12 Regular Show | Lunch Break
+2026-11-09 07:28 The Amazing World of Gumball | The Helmet
+2026-11-09 07:40 The Amazing World of Gumball | The Fight
+2026-11-09 07:56 The Amazing World of Gumball | The Colossus
+2026-11-09 08:08 The Amazing World of Gumball | The Knights
+2026-11-09 08:24 Teen Titans Go! | Our House
+2026-11-09 08:36 Teen Titans Go! | Beard Hunter
+2026-11-09 08:52 Teen Titans Go! | New Chum
+2026-11-09 09:04 Clarence | Detention
+2026-11-09 09:16 Clarence | Lil Buddy
+2026-11-09 09:32 Clarence | Tuckered Boys
+2026-11-09 09:44 Clarence | Water Park
+2026-11-09 10:00 What’s New Scooby-Doo? | Lights! Camera! Mayhem!
+2026-11-09 10:30 What’s New Scooby-Doo? | Pompeii and Circumstance
+2026-11-09 11:00 The Scooby-Doo Show | The Tar Monster
+2026-11-09 11:30 The Scooby-Doo Show | Jeepers, It's the Jaguaro!
+2026-11-09 12:00 Looney Tunes | All Fowled Up
+2026-11-09 12:10 Looney Tunes | Lighthouse Mouse
+2026-11-09 12:20 Looney Tunes | Sandy Claws
+2026-11-09 12:30 Tom & Jerry | Puppy Tale
+2026-11-09 12:40 Tom & Jerry | Switchin' Kitten
+2026-11-09 12:50 Tom & Jerry | Down And Outing
+2026-11-09 13:00 Teen Titans Go! | Negative Feels
+2026-11-09 13:15 Teen Titans Go! | Elasti-Bot
+2026-11-09 13:30 Teen Titans Go! | Arthur
+2026-11-09 13:45 Teen Titans Go! | Easter Annihilation
+2026-11-09 14:00 The Amazing World of Gumball | The Fridge
+2026-11-09 14:15 The Amazing World of Gumball | The Flower
+2026-11-09 14:30 The Amazing World of Gumball | The Banana
+2026-11-09 14:45 The Amazing World of Gumball | The Phone
+2026-11-09 15:00 The Amazing World of Gumball | The Job
+2026-11-09 15:15 The Amazing World of Gumball | The Remote
+2026-11-09 15:30 The Amazing World of Gumball | Halloween
+2026-11-09 15:45 The Amazing World of Gumball | The Treasure
+2026-11-09 16:00 Regular Show | Brilliant Century Duck Crisis Special
+2026-11-09 16:30 Regular Show | Free Cake
+2026-11-09 16:45 Regular Show: The Lost Tapes | Clean the Living Room
+2026-11-10 06:00 Batwheels | Double Trouble
+2026-11-10 06:12 Bugs Bunny Builders | Dino Fright
+2026-11-10 06:28 Regular Show | Dumped at the Altar
+2026-11-10 06:40 Regular Show | Dumptown USA
+2026-11-10 06:56 The Heroic Quest of the Valiant Prince Ivandoe | The Prince and the Pretty Poodle
+2026-11-10 07:00 Regular Show | The Parkie Awards
+2026-11-10 07:12 Regular Show | The Lunch Club
+2026-11-10 07:28 The Amazing World of Gumball | The Apology
+2026-11-10 07:40 The Amazing World of Gumball | The Words
+2026-11-10 07:56 The Amazing World of Gumball | The Skull
+2026-11-10 08:08 The Amazing World of Gumball | The Bet
+2026-11-10 08:24 Teen Titans Go! | Plot Holes
+2026-11-10 08:36 Teen Titans Go! | Toilet Water
+2026-11-10 08:52 Teen Titans Go! | Utility Belt
+2026-11-10 09:04 Clarence | Where the Wild Chads Are
+2026-11-10 09:16 Clarence | Breehn Ho!
+2026-11-10 09:32 Clarence | The Big Petey Pizza Problem
+2026-11-10 09:44 Clarence | The Break Up
+2026-11-10 10:00 What’s New Scooby-Doo? | The Unnatural
+2026-11-10 10:30 What’s New Scooby-Doo? | A Scooby-Doo Christmas
+2026-11-10 11:00 The Scooby-Doo Show | The Creepy Creature of Vulture's Claw
+2026-11-10 11:30 The Scooby-Doo Show | Make a Beeline Away from That Feline or Who Was That Cat Creature I Saw You with Last Night
+2026-11-10 12:00 Looney Tunes | Ready, Set, Zoom
+2026-11-10 12:10 Looney Tunes | Roman Legion-Hare
+2026-11-10 12:20 Looney Tunes | Guided Muscle
+2026-11-10 12:30 Tom & Jerry | It's Greek To Me-ow
+2026-11-10 12:40 Tom & Jerry | High Steaks
+2026-11-10 12:50 Tom & Jerry | Landing Stripling
+2026-11-10 13:00 Teen Titans Go! | Intro
+2026-11-10 13:15 Teen Titans Go! | Azarath, Metrion Bookstore; Bookyman
+2026-11-10 13:30 Teen Titans Go! | The Great Azarathian Face Off; Original Idea
+2026-11-10 13:45 Teen Titans Go! | Bookyman
+2026-11-10 14:00 The Amazing World of Gumball | Christmas
+2026-11-10 14:15 The Amazing World of Gumball | The Watch
+2026-11-10 14:30 The Amazing World of Gumball | The Bumpkin
+2026-11-10 14:45 The Amazing World of Gumball | The Flakers
+2026-11-10 15:00 The Amazing World of Gumball | The Authority
+2026-11-10 15:15 The Amazing World of Gumball | The Virus
+2026-11-10 15:30 The Amazing World of Gumball | The Pony
+2026-11-10 15:45 The Amazing World of Gumball | The Hero
+2026-11-10 16:00 Regular Show | Local News Legend
+2026-11-10 16:15 Regular Show | Birthday Gift
+2026-11-10 16:30 Regular Show | Cat Videos
+2026-11-10 16:45 Regular Show: The Lost Tapes | That's Funny
+2026-11-11 06:00 Batwheels | The Holographic Heist
+2026-11-11 06:12 Bugs Bunny Builders | Snow Cap
+2026-11-11 06:28 Regular Show | Struck by Lightning
+2026-11-11 06:40 Regular Show | The Return of Party Horse
+2026-11-11 06:56 Tom and Jerry | What's That Smell
+2026-11-11 07:00 Regular Show | The Dome Experiment
+2026-11-11 07:28 The Amazing World of Gumball | The Dream
+2026-11-11 07:40 The Amazing World of Gumball | The Photo
+2026-11-11 07:56 The Amazing World of Gumball | The Sidekick
+2026-11-11 08:08 The Amazing World of Gumball | The Tag
+2026-11-11 08:24 Teen Titans Go! | Unleashed
+2026-11-11 08:36 Teen Titans Go! | Original Idea
+2026-11-11 08:52 Teen Titans Go! | Attention to Detail
+2026-11-11 09:04 Clarence | In Dreams
+2026-11-11 09:16 Clarence | Balance
+2026-11-11 09:32 Clarence | Spooky Boo
+2026-11-11 09:44 Clarence | The Interrogation
+2026-11-11 10:00 What’s New Scooby-Doo? | High-Tech House of the Future
+2026-11-11 10:30 What’s New Scooby-Doo? | Large Dragon at Large
+2026-11-11 11:00 The Scooby-Doo Show | The Diabolical Disc Demon
+2026-11-11 11:30 The Scooby-Doo Show | Scooby's Chinese Fortune Kooky Caper
+2026-11-11 12:00 Looney Tunes | One Froggy Evening
+2026-11-11 12:10 Looney Tunes | Hare Brush
+2026-11-11 12:20 Looney Tunes | A Kiddies Kitty
+2026-11-11 12:30 Tom & Jerry | Calypso Cat
+2026-11-11 12:40 Tom and Jerry | Dicky Moe
+2026-11-11 12:50 Tom & Jerry | Sorry Safari
+2026-11-11 13:00 Teen Titans Go! | Warner Bros 100th Anniversary
+2026-11-11 13:30 Teen Titans Go! | Ship
+2026-11-11 13:45 Teen Titans Go! | Catpin Freak
+2026-11-11 14:00 The Amazing World of Gumball | The Storm
+2026-11-11 14:15 The Amazing World of Gumball | The Lesson
+2026-11-11 14:30 The Amazing World of Gumball | The Game
+2026-11-11 14:45 The Amazing World of Gumball | The Limit
+2026-11-11 15:00 The Amazing World of Gumball | The Voice
+2026-11-11 15:15 The Amazing World of Gumball | The Promise
+2026-11-11 15:30 The Amazing World of Gumball | The Castle
+2026-11-11 15:45 The Amazing World of Gumball | The Boombox
+2026-11-11 16:00 Regular Show | Sleep Cycle
+2026-11-11 16:15 Regular Show | Just Friends
+2026-11-11 16:30 Regular Show | Benson's Pig
+2026-11-11 16:45 Regular Show: The Lost Tapes | Artist's Block
+2026-11-12 06:00 Batwheels | Ski Blanket Bingo
+2026-11-12 06:12 Bugs Bunny Builders | Tweety-Go-Round
+2026-11-12 06:28 Regular Show | The Eileen Plan
+2026-11-12 06:40 Regular Show | Hello China
+2026-11-12 06:56 Tom and Jerry | Sky's the Limit
+2026-11-12 07:00 Regular Show | Crazy Fake Plan
+2026-11-12 07:12 Regular Show | Win That Prize
+2026-11-12 07:28 The Amazing World of Gumball | The Tape
+2026-11-12 07:40 The Amazing World of Gumball | The Sweaters
+2026-11-12 07:56 The Amazing World of Gumball | The Internet
+2026-11-12 08:08 The Amazing World of Gumball | The Plan
+2026-11-12 08:24 Teen Titans Go! | 50% Crew
+2026-11-12 08:36 Teen Titans Go! | Five Bucks
+2026-11-12 08:52 Teen Titans Go! | Wild Card
+2026-11-12 09:04 Clarence | Lost Playground
+2026-11-12 09:16 Clarence | Bird Boy Man
+2026-11-12 09:32 Clarence | Freedom Cactus
+2026-11-12 09:44 Clarence | Plane Excited
+2026-11-12 10:00 What’s New Scooby-Doo? | Mummy Scares Best
+2026-11-12 10:30 What’s New Scooby-Doo? | Big Appetite in Little Tokyo
+2026-11-12 11:00 The Scooby-Doo Show | A Menace in Venice
+2026-11-12 11:30 The Scooby-Doo Show | Don't Go Near the Fortress of Fear
+2026-11-12 12:00 Looney Tunes | Pests for Guests
+2026-11-12 12:10 Looney Tunes | Spaced Out Bunny
+2026-11-12 12:20 Looney Tunes | Rabbit Rampage
+2026-11-12 12:30 Tom and Jerry | Carmen Get It!
+2026-11-12 12:40 Tom & Jerry | Pent-House Mouse
+2026-11-12 12:50 Tom and Jerry | The Cat Above and the Mouse Below
+2026-11-12 13:00 Teen Titans Go! | Four Hundred
+2026-11-12 13:30 Teen Titans Go! | The Ranch
+2026-11-12 13:45 Teen Titans Go! | TV Knight 9
+2026-11-12 14:00 The Amazing World of Gumball | The World
+2026-11-12 14:15 The Amazing World of Gumball | The Finale
+2026-11-12 14:30 The Amazing World of Gumball | The Kids
+2026-11-12 14:45 The Amazing World of Gumball | The Fan
+2026-11-12 15:00 The Amazing World of Gumball | The Coach
+2026-11-12 15:15 The Amazing World of Gumball | The Joy
+2026-11-12 15:30 The Amazing World of Gumball | The Puppy
+2026-11-12 15:45 The Amazing World of Gumball | The Recipe
+2026-11-12 16:00 Regular Show | Snow Tubing
+2026-11-12 16:15 Regular Show | Chili Cook-Off
+2026-11-12 16:30 Regular Show | Donut Factory Holiday
+2026-11-12 16:45 Regular Show: The Lost Tapes | That's Funny
+2026-11-13 06:00 Batwheels | The Holographic Heist
+2026-11-13 06:12 Bugs Bunny Builders | Smash House
+2026-11-13 06:28 Regular Show | Gymblonski
+2026-11-13 06:40 Regular Show | Guys Night 2
+2026-11-13 06:56 The Heroic Quest of the Valiant Prince Ivandoe | The Prince and the Raspberry Fairy
+2026-11-13 07:00 Regular Show | Gary's Synthesizer
+2026-11-13 07:12 Regular Show | California King
+2026-11-13 07:28 The Amazing World of Gumball | The Name
+2026-11-13 07:40 The Amazing World of Gumball | The Extras
+2026-11-13 07:56 The Amazing World of Gumball | The Gripes
+2026-11-13 08:08 The Amazing World of Gumball | The Vacation
+2026-11-13 08:24 Teen Titans Go!
+2026-11-13 08:36 Teen Titans Go! | Favorite Animated Show Nominee
+2026-11-13 08:52 Teen Titans Go! | Best Mom Ever
+2026-11-13 09:04 Clarence | Escape From Beyond the Cosmic
+2026-11-13 09:16 Clarence | Ren Faire
+2026-11-13 09:32 Grizzy and the Lemmings | Tam-Tam Lemming
+2026-11-13 09:40 Grizzy and the Lemmings | Ice Madness!
+2026-11-13 09:48 Grizzy and the Lemmings | In Your Dreams
+2026-11-13 10:00 What’s New Scooby-Doo? | The Fast and the Wormious
+2026-11-13 10:30 What’s New Scooby-Doo? | Homeward Hound
+2026-11-13 11:00 The Scooby-Doo Show | The Beast Is Awake in the Bottomless Lake
+2026-11-13 11:30 The Scooby-Doo Show | The Warlock of Wimbledon
+2026-11-13 12:00 Looney Tunes | Broom-Stick Bunny
+2026-11-13 12:10 Looney Tunes | Half-Fare Hare
+2026-11-13 12:20 Looney Tunes | Raw! Raw! Rooster!
+2026-11-13 12:30 Tom & Jerry | Is There a Doctor in the Mouse?
+2026-11-13 12:40 Tom and Jerry | Much Ado About Mousing
+2026-11-13 12:50 Tom & Jerry | The Unshrinkable Jerry Mouse
+2026-11-13 13:00 Teen Titans Go! | A Stickier Situation
+2026-11-13 13:15 Teen Titans Go!
+2026-11-13 13:30 Teen Titans Go! | Them Jaws
+2026-11-13 13:45 Teen Titans Go! | Pool Shark
+2026-11-13 14:00 The Amazing World of Gumball | The Fraud
+2026-11-13 14:15 The Amazing World of Gumball | The Void
+2026-11-13 14:30 The Amazing World of Gumball | The Boss
+2026-11-13 14:45 The Amazing World of Gumball | The Move
+2026-11-13 15:00 The Amazing World of Gumball | The Law
+2026-11-13 15:15 The Amazing World of Gumball | The Mothers
+2026-11-13 15:30 The Amazing World of Gumball | The Password
+2026-11-13 15:45 The Amazing World of Gumball | The Allergy
+2026-11-13 16:00 Regular Show | Cube Bros
+2026-11-13 16:15 Regular Show | Maellard's Package
+2026-11-13 16:30 Regular Show | Rigby Goes to the Prom
+2026-11-13 16:45 Regular Show: The Lost Tapes | Fix That Tape; Nap Spot
+2026-11-14 06:00 Regular Show: The Lost Tapes | Regular Show Presents: Terror Tales of the Park VII Halloween Special
+2026-11-14 06:30 Regular Show: The Lost Tapes | Beginson
+2026-11-14 06:45 Regular Show: The Lost Tapes | Spice It Up
+2026-11-14 07:00 Regular Show: The Lost Tapes | Secret Menu Item
+2026-11-14 07:15 Regular Show: The Lost Tapes | Regular Show Presents: Terror Tales of the Park VII Halloween Special
+2026-11-14 07:45 Regular Show: The Lost Tapes | Smoke Alarm on the Water
+2026-11-14 08:00 Regular Show: The Lost Tapes | Party Horse 4: Third Time's a Charm
+2026-11-14 08:15 Regular Show: The Lost Tapes | Artist's Block
+2026-11-14 08:30 Regular Show: The Lost Tapes | Clean the Living Room
+2026-11-14 08:45 Regular Show: The Lost Tapes | That's Funny
+2026-11-14 09:00 Regular Show: The Lost Tapes | Cool Boss
+2026-11-14 09:15 Regular Show: The Lost Tapes | Blade Games
+2026-11-14 09:30 Regular Show: The Lost Tapes | Fix That Tape; Nap Spot
+2026-11-14 09:45 Regular Show: The Lost Tapes | Fix That Tape; Coffee Shop Wars
+2026-11-14 10:00 Regular Show: The Lost Tapes | Boba or Bo-Bust
+2026-11-14 10:15 Regular Show: The Lost Tapes | Corpse Flower
+2026-11-14 10:30 Regular Show: The Lost Tapes | Beginson
+2026-11-14 10:45 Regular Show: The Lost Tapes | Good Mitch Spiking
+2026-11-14 11:00 Regular Show: The Lost Tapes | Stilt Walkers
+2026-11-14 11:15 Regular Show: The Lost Tapes | Spice It Up
+2026-11-14 11:30 Regular Show: The Lost Tapes | Secret Menu Item
+2026-11-14 11:45 Regular Show: The Lost Tapes | Fix That Tape; Skips' Luau
+2026-11-14 12:15 Regular Show: The Lost Tapes | Smoke Alarm on the Water
+2026-11-14 12:30 Regular Show: The Lost Tapes | Party Horse 4: Third Time's a Charm
+2026-11-14 12:45 Regular Show: The Lost Tapes | Artist's Block
+2026-11-14 13:00 Regular Show: The Lost Tapes | Clean the Living Room
+2026-11-14 13:15 Regular Show: The Lost Tapes | That's Funny
+2026-11-14 13:30 Regular Show: The Lost Tapes | Cool Boss
+2026-11-14 13:45 Regular Show: The Lost Tapes | Regular Show Presents: Terror Tales of the Park VII Halloween Special
+2026-11-14 14:15 Regular Show: The Lost Tapes | Beginson
+2026-11-14 14:30 Regular Show: The Lost Tapes | Good Mitch Spiking
+2026-11-14 14:45 Regular Show: The Lost Tapes | Stilt Walkers
+2026-11-14 15:00 Regular Show: The Lost Tapes | Spice It Up
+2026-11-14 15:15 Regular Show: The Lost Tapes | Secret Menu Item
+2026-11-14 15:30 Regular Show: The Lost Tapes | Smoke Alarm on the Water
+2026-11-14 15:45 Regular Show: The Lost Tapes | Party Horse 4: Third Time's a Charm
+2026-11-14 16:00 Regular Show: The Lost Tapes | Artist's Block
+2026-11-14 16:15 Regular Show: The Lost Tapes | Clean the Living Room
+2026-11-14 16:30 Regular Show: The Lost Tapes | That's Funny
+2026-11-14 16:45 Regular Show: The Lost Tapes | Cool Boss
+2026-11-15 06:00 Tom & Jerry | Tom-ic Energy
+2026-11-15 06:10 Tom and Jerry | The Night Before Christmas
+2026-11-15 06:20 Tom and Jerry | The Bowling Alley Cat
+2026-11-15 06:30 Tom and Jerry | Fine Feathered Friend
+2026-11-15 06:40 Tom & Jerry | Sufferin' Cats
+2026-11-15 06:50 Tom & Jerry | Baby Puss
+2026-11-15 07:00 Looney Tunes | Too Hop to Handle
+2026-11-15 07:10 Looney Tunes | The Unexpected Pest
+2026-11-15 07:20 Looney Tunes | Box-Office Bunny
+2026-11-15 07:30 Looney Tunes | From Hare to Eternity
+2026-11-15 07:40 Looney Tunes | Stupor Duck
+2026-11-15 07:50 Looney Tunes | The Slap-Hoppy Mouse
+2026-11-15 08:00 Scooby-Doo, Where Are You! | Go Away Ghost Ship
+2026-11-15 08:30 Scooby-Doo, Where Are You! | Spooky Space Kook
+2026-11-15 09:00 What’s New Scooby-Doo? | The Vampire Strikes Back
+2026-11-15 09:30 What’s New Scooby-Doo? | It's All Greek to Scooby
+2026-11-15 10:00 Tiny Toons Looniversity | Tooned In Space
+2026-11-15 10:30 Jellystone! | Sha-Zogi
+2026-11-15 10:45 Jellystone! | Lil' Honk Honks
+2026-11-15 11:00 Grizzy and the Lemmings | Lemming Fortune
+2026-11-15 11:10 Grizzy and the Lemmings | Tough Medicine
+2026-11-15 11:20 Grizzy and the Lemmings | Tai Chi Lemmings
+2026-11-15 11:30 We Bare Bears | More Everyone's Tube
+2026-11-15 11:45 We Bare Bears | Money Man
+2026-11-15 12:00 Regular Show: The Lost Tapes | Spice It Up
+2026-11-15 12:15 Regular Show: The Lost Tapes | Secret Menu Item
+2026-11-15 12:30 Regular Show: The Lost Tapes | Fix That Tape; Skips' Luau
+2026-11-15 13:00 Regular Show: The Lost Tapes | Smoke Alarm on the Water
+2026-11-15 13:15 Regular Show: The Lost Tapes | Party Horse 4: Third Time's a Charm
+2026-11-15 13:30 Regular Show: The Lost Tapes | Artist's Block
+2026-11-15 13:45 Regular Show: The Lost Tapes | Clean the Living Room
+2026-11-15 14:00 Regular Show: The Lost Tapes | That's Funny
+2026-11-15 14:15 Regular Show: The Lost Tapes | Cool Boss
+2026-11-15 14:30 Regular Show: The Lost Tapes | Regular Show Presents: Terror Tales of the Park VII Halloween Special
+2026-11-15 15:00 Regular Show: The Lost Tapes | Blade Games
+2026-11-15 15:15 Regular Show: The Lost Tapes | Fix That Tape; Nap Spot
+2026-11-15 15:30 Regular Show: The Lost Tapes | Fix That Tape; Coffee Shop Wars
+2026-11-15 15:45 Regular Show: The Lost Tapes | Boba or Bo-Bust
+2026-11-15 16:00 Regular Show: The Lost Tapes | Corpse Flower
+2026-11-15 16:15 Regular Show: The Lost Tapes | Beginson
+2026-11-15 16:30 Regular Show: The Lost Tapes | Good Mitch Spiking
+2026-11-15 16:45 Regular Show: The Lost Tapes | Stilt Walkers
+2026-11-16 06:00 Batwheels | Bat-Babies
+2026-11-16 06:12 Bugs Bunny Builders | Play Day
+2026-11-16 06:28 Regular Show | The Button
+2026-11-16 06:40 Regular Show | Favorite Shirt
+2026-11-16 06:56 Tom and Jerry | What Goes Around Comes Around
+2026-11-16 07:00 Regular Show | Marvolo the Wizard
+2026-11-16 07:12 Regular Show | Pops' Favorite Planet
+2026-11-16 07:28 The Amazing World of Gumball | The Procrastinators
+2026-11-16 07:40 The Amazing World of Gumball | The Shell
+2026-11-16 07:56 The Amazing World of Gumball | The Burden
+2026-11-16 08:08 The Amazing World of Gumball | The Bros
+2026-11-16 08:24 Teen Titans Go! | Shark Tank
+2026-11-16 08:36 Teen Titans Go! | Lake Side Story
+2026-11-16 08:52 Teen Titans Go! | Megalodon Jackson
+2026-11-16 09:04 Clarence | Time Crimes
+2026-11-16 09:16 Clarence | Saturday School
+2026-11-16 09:32 Clarence | Attack the Block Party
+2026-11-16 09:44 Clarence | Field Trippin'
+2026-11-16 10:00 What’s New Scooby-Doo? | New Mexico, Old Monster
+2026-11-16 10:30 What’s New Scooby-Doo? | Recipe for Disaster
+2026-11-16 11:00 Scooby-Doo, Where Are You! | What a Night for a Knight
+2026-11-16 11:30 Scooby-Doo, Where Are You! | A Clue for Scooby-Doo
+2026-11-16 12:00 Looney Tunes | A Star Is Bored
+2026-11-16 12:10 Looney Tunes | To Hare is Human
+2026-11-16 12:20 Looney Tunes | Rabbitson Crusoe
+2026-11-16 12:30 Tom & Jerry | The Million Dollar Cat
+2026-11-16 12:40 Tom and Jerry | The Bodyguard
+2026-11-16 12:50 Tom and Jerry | Puttin' on the Dog
+2026-11-16 13:00 Teen Titans Go!
+2026-11-16 13:15 Teen Titans Go!
+2026-11-16 13:30 Teen Titans Go! | Freak Show
+2026-11-16 13:45 Teen Titans Go! | Diner Means Breakfast
+2026-11-16 14:00 The Amazing World of Gumball | The Mirror
+2026-11-16 14:15 The Amazing World of Gumball | The Man
+2026-11-16 14:30 The Amazing World of Gumball | The Pizza
+2026-11-16 14:45 The Amazing World of Gumball | The Lie
+2026-11-16 15:00 The Amazing World of Gumball | The Butterfly
+2026-11-16 15:15 The Amazing World of Gumball | The Question
+2026-11-16 15:30 The Amazing World of Gumball | The Saint
+2026-11-16 15:45 The Amazing World of Gumball | The Friend
+2026-11-16 16:00 Regular Show | Pam I Am
+2026-11-16 16:15 Regular Show | Lame Lockdown
+2026-11-16 16:30 Regular Show: The Lost Tapes | Fix That Tape; Skips' Luau
+2026-11-17 06:00 Batwheels | Ski Blanket Bingo
+2026-11-17 06:12 Bugs Bunny Builders | Rock On
+2026-11-17 06:28 Regular Show | VIP Members Only
+2026-11-17 06:40 Regular Show | Deez Keys
+2026-11-17 06:56 The Heroic Quest of the Valiant Prince Ivandoe | The Prince and the Plucky Duck
+2026-11-17 07:00 Regular Show | Rigby's Graduation Day Special
+2026-11-17 07:28 The Amazing World of Gumball | The Oracle
+2026-11-17 07:40 The Amazing World of Gumball | The Safety
+2026-11-17 07:56 The Amazing World of Gumball | The Society
+2026-11-17 08:08 The Amazing World of Gumball | The Spoiler
+2026-11-17 08:24 Teen Titans Go!
+2026-11-17 08:36 Teen Titans Go! | Winged Warriors
+2026-11-17 08:52 Teen Titans Go! | High Five
+2026-11-17 09:04 Clarence | Ice Cream Hunt
+2026-11-17 09:16 Clarence | Company Man
+2026-11-17 09:32 Clarence | Stump Brothers
+2026-11-17 09:44 Clarence | The Tails of Mardrynia
+2026-11-17 10:00 What’s New Scooby-Doo? | Simple Plan and the Invisible Madman
+2026-11-17 10:30 What’s New Scooby-Doo? | Uncle Scooby and Antarctica
+2026-11-17 11:00 Scooby-Doo, Where Are You! | Hassle in the Castle
+2026-11-17 11:30 Scooby-Doo, Where Are You! | Mine Your Own Business
+2026-11-17 12:00 Looney Tunes | Tree Cornered Tweety
+2026-11-17 12:10 Looney Tunes | Birds Anonymous
+2026-11-17 12:20 Looney Tunes | Zoom and Bored
+2026-11-17 12:30 Tom and Jerry | Mouse Trouble
+2026-11-17 12:40 Tom and Jerry | Tee for Two
+2026-11-17 12:50 Tom & Jerry | Springtime for Thomas
+2026-11-17 13:00 Teen Titans Go!
+2026-11-17 13:15 Teen Titans Go! | DC Comic Book Club
+2026-11-17 13:30 Teen Titans Go! | White Elephant
+2026-11-17 13:45 Teen Titans Go! | DC Leader Swap
+2026-11-17 14:00 The Amazing World of Gumball | The Countdown
+2026-11-17 14:15 The Amazing World of Gumball | The Nobody
+2026-11-17 14:30 The Amazing World of Gumball | The Downer
+2026-11-17 14:45 The Amazing World of Gumball | The Triangle
+2026-11-17 15:00 The Amazing World of Gumball | The Money
+2026-11-17 15:15 The Amazing World of Gumball | The Egg
+2026-11-17 15:30 The Amazing World of Gumball | The Return
+2026-11-17 15:45 The Amazing World of Gumball | The Nemesis
+2026-11-17 16:00 Regular Show | One Space Day at a Time
+2026-11-17 16:15 Regular Show | Cool Bro Bots
+2026-11-17 16:30 Regular Show | Welcome to Space
+2026-11-17 16:45 Regular Show: The Lost Tapes | Spice It Up
+2026-11-18 06:00 Batwheels | Bat-Babies
+2026-11-18 06:12 Bugs Bunny Builders | Buzz In
+2026-11-18 06:28 Regular Show | Space Creds
+2026-11-18 06:40 Regular Show | Lost and Found
+2026-11-18 06:56 Tom and Jerry | Be Careful What You Fish For
+2026-11-18 07:00 Regular Show | Ugly Moons
+2026-11-18 07:12 Regular Show | The Dream Warrior
+2026-11-18 07:28 The Amazing World of Gumball | The Crew
+2026-11-18 07:40 The Amazing World of Gumball | The Others
+2026-11-18 07:56 The Amazing World of Gumball | The Signature
+2026-11-18 08:08 The Amazing World of Gumball | The Check
+2026-11-18 08:24 Teen Titans Go! | Shhh
+2026-11-18 08:36 Teen Titans Go! | Crime Alert
+2026-11-18 08:52 Teen Titans Go! | Mani-Pedi
+2026-11-18 09:04 Clarence | Clarence Wendle and the Eye of Coogan
+2026-11-18 09:16 Clarence | Sneaky Peeky
+2026-11-18 09:32 Clarence | Game Show
+2026-11-18 09:44 Clarence | Skater Sumo
+2026-11-18 10:00 What’s New Scooby-Doo? | The San Franpsycho
+2026-11-18 10:30 What’s New Scooby-Doo? | A Scooby-Doo Halloween
+2026-11-18 11:00 Scooby-Doo, Where Are You! | Decoy for a Dognapper
+2026-11-18 11:30 Scooby-Doo, Where Are You! | What The Hex is Going On?
+2026-11-18 12:00 Looney Tunes | Go Fly a Kit
+2026-11-18 12:10 Looney Tunes | Bedevilled Rabbit
+2026-11-18 12:20 Looney Tunes | What's Opera, Doc?
+2026-11-18 12:30 Tom and Jerry | Trap Happy
+2026-11-18 12:40 Tom and Jerry | Solid Serenade
+2026-11-18 12:50 The Tom and Jerry Show | Cat Fishin'
+2026-11-18 13:00 Teen Titans Go! | Chowda
+2026-11-18 13:15 Teen Titans Go! | Activate
+2026-11-18 13:30 Teen Titans Go! | Unmasking -- The Teen Titans Story
+2026-11-18 13:45 Teen Titans Go! | Ice Cold
+2026-11-18 14:00 The Amazing World of Gumball | The Pest
+2026-11-18 14:15 The Amazing World of Gumball | The Sale
+2026-11-18 14:30 The Amazing World of Gumball | The Gift
+2026-11-18 14:45 The Amazing World of Gumball | The Parking
+2026-11-18 15:00 The Amazing World of Gumball | The Routine
+2026-11-18 15:15 The Amazing World of Gumball | The Upgrade
+2026-11-18 15:30 The Amazing World of Gumball | The Comic
+2026-11-18 15:45 The Amazing World of Gumball | The Romantic
+2026-11-18 16:00 Regular Show | The Brain of Evil
+2026-11-18 16:15 Regular Show | Fries Night
+2026-11-18 16:30 Regular Show | Spacey McSpaceTree
+2026-11-18 16:45 Regular Show: The Lost Tapes | Secret Menu Item

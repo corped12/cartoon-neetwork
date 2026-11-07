@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Episode list (ShowModel parser). totalItems is an attribute on the root element. -->
+<episodes totalItems="2">
+  <episode id="1001" showId="1" collectionId="1" collectionTitle="Example Show One" collectionCategoryType="show"
+           rating="TV-Y7" ranking="1" numberOfViews="100" title="Test Episode 1" episodeType="episode"
+           epiSeasonNumber="1" epiSeasonName="Season 1" epiRatingImageUrl="" colHeader2ImageUrl="" colRatingImageUrl="" genre="Animation">
+    <segments>
+      <segment id="5001" thumbnailUrl="" episodeId="1001" duration="1320"/>
+    </segments>
+  </episode>
+  <episode id="1002" showId="1" collectionId="1" collectionTitle="Example Show One" collectionCategoryType="show"
+           rating="TV-Y7" ranking="2" numberOfViews="50" title="Test Episode 2" episodeType="episode"
+           epiSeasonNumber="1" epiSeasonName="Season 1" epiRatingImageUrl="" colHeader2ImageUrl="" colRatingImageUrl="" genre="Animation">
+    <segments>
+      <segment id="5002" thumbnailUrl="" episodeId="1002" duration="1320"/>
+    </segments>
+  </episode>
+</episodes>

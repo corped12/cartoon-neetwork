@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  app_config.xml v4 for CN Video 1.2.1 (com.turner.cnvideoapp)
+  Built from a trace of -[AppConfigParser parse:] in the app binary.
+  Key point: URLs are ATTRIBUTES named "url", not element text.
+  Replace 192.168.86.91 with the IP of the machine hosting the other files.
+-->
+<config>
+  <services>
+    <schedule url="http://192.168.86.91:8080/schedule.xml?day=${day}&amp;tz=${timeZone}"/>
+    <videoConfig url="http://192.168.86.91:8080/video_config.xml"/>
+    <teaser url="http://192.168.86.91:8080/teaser_config.xml" duration="5"/>
+    <moreApps url="http://www.cartoonnetwork.com"/>
+  </services>
+
+  <legal termsOfServiceURL="http://192.168.86.91:8080/terms.html" privacyPolicyURL="http://192.168.86.91:8080/privacy.html"/>
+
+  <share>
+    <app url="http://www.cartoonnetwork.com/video">
+      <subject>Cartoon Network Video</subject>
+      <body>Watch full episodes and clips from your favorite Cartoon Network shows!</body>
+      <linkPrefix>http://www.cartoonnetwork.com/video</linkPrefix>
+    </app>
+    <subject>Cartoon Network Video</subject>
+    <body>Watch full episodes and clips from your favorite Cartoon Network shows!</body>
+    <linkPrefix>http://www.cartoonnetwork.com/video</linkPrefix>
+  </share>
+
+  <ads>
+    <freeWheel serverURL="http://192.168.86.91:8080" networkID="1" ssID="cn_on_demand" profile="cn_ios"/>
+  </ads>
+
+  <home limit="6"/>
+  <show limit="10"/>
+  <mostRecent limit="20"/>
+  <popular limit="20"/>
+</config>

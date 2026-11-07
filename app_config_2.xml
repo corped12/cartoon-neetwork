@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DRAFT app_config for CN app 2.0.0 (build 388), served at /_/watchandplay/config/app_config.xml
+  Layout confirmed from the app's own config reader:
+    - services, legal, ads and media are top-level sections
+    - auth and sponsorLogo live INSIDE media, next to player
+  URLs are ATTRIBUTES named "url". Replace 192.168.86.91 if your PC's address changes.
+-->
+<config minSupportedVersion="1.0" liveTVID="" watchEpisodesNotificaitonLimit="3" dynamicContentTabs="false">
+  <services minSupportedVersion="1.0" liveTVID="" watchEpisodesNotificaitonLimit="3" dynamicContentTabs="false">
+    <dnaLab url="http://192.168.86.91:8080/dnalab.xml"/>
+    <schedule url="http://192.168.86.91:8080/schedule.xml?day=${day}&amp;tz=${timeZone}"/>
+    <games url="http://192.168.86.91:8080/games.xml"/>
+    <moreApps url="http://www.cartoonnetwork.com"/>
+    <faq url="http://192.168.86.91:8080/faq.xml"/>
+    <video url="http://192.168.86.91:8080/video_config_2.xml"/>
+  </services>
+
+  <legal termsOfServiceURL="http://192.168.86.91:8080/terms.html" privacyPolicyURL="http://192.168.86.91:8080/privacy.html"/>
+
+  <ads>
+    <freeWheel serverURL="http://192.168.86.91:8080" networkID="1" ssID="cn_on_demand" profile="cn_ios"/>
+  </ads>
+
+  <media>
+    <player containerURL="http://192.168.86.91:8080/cvp_container.xml"
+            configURL="http://192.168.86.91:8080/cvp_config.xml"
+            context_phone="cn_phone" context_tablet="cn_tablet" context="cn_phone"/>
+    <auth requestor="CartoonNetwork" interfaceURL="http://192.168.86.91:8080/auth/"
+          mvpdConfigURL="http://192.168.86.91:8080/mvpd_config.xml" introDisplayLimit="0"/>
+    <sponsorLogo url="http://192.168.86.91:8080/sponsor.png" timeout="1" width="100" height="40"/>
+  </media>
+</config>

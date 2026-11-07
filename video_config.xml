@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  video_config.xml draft for CN Video 1.2.1
+  Built from a trace of -[VideoConfigParser parse:].
+  Each <collection> becomes one entry in the Shows list; every field is an ATTRIBUTE.
+  The "services" block is placed both at the top level and inside allcollections,
+  because the trace did not show which one the parser reads.
+  IP 192.168.86.91 is the PC address seen in your log; change it if it changes.
+  The playlist and episodes URLs MUST already contain a "?" because the app appends
+  "&id=<videoID>" and "&filterByCollectionId=<showID>" to them.
+-->
+<config>
+  <allcollections>
+    <timestamp value="1"/>
+
+    <collection id="1" category="show" name="Example Show One"
+                header1="Example Show One" header2="" mobile3imgurl=""
+                thumbnail="" description="Test show served from Jellyfin."
+                tunein="Weeknights 7:00 PM" rating="TV-Y7"/>
+    <collection id="2" category="show" name="Example Show Two"
+                header1="Example Show Two" header2="" mobile3imgurl=""
+                thumbnail="" description="Second test show."
+                tunein="Weekends 9:00 AM" rating="TV-PG"/>
+    <collection id="3" category="show" name="Example Show Three"
+                header1="Example Show Three" header2="" mobile3imgurl=""
+                thumbnail="" description="Third test show."
+                tunein="Daily 4:30 PM" rating="TV-Y"/>
+
+    <services>
+      <getVideoPlaylist url="http://192.168.86.91:8080/playlist.xml?src=jf"/>
+      <getAllEpisodes url="http://192.168.86.91:8080/episodes.xml?src=jf"/>
+    </services>
+  </allcollections>
+
+  <services>
+    <getVideoPlaylist url="http://192.168.86.91:8080/playlist.xml?src=jf"/>
+    <getAllEpisodes url="http://192.168.86.91:8080/episodes.xml?src=jf"/>
+  </services>
+</config>

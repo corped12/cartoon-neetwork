@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Home hero slideshow (SlideShowModel parser). All values are attributes on <item>. -->
+<config>
+  <items>
+    <item type="show" assetURL="" collectionID="1" title="Example Show One" description="Test show served from Jellyfin." tvRating="TV-Y7" headerURL=""/>
+  </items>
+</config>

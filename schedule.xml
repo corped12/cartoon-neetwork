@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Static example only. cn_addon.py generates the real schedule for each day. Every field is an attribute on <show>. -->
+<schedule>
+  <show title="Example Show One" time="7:00 PM" showId="1" episodeID="101" episodeName="Test Episode 1" isFeatured="false" blockName="" date="11/03/2026" military="19:00" rating="TV-Y7" weekday="Tuesday"/>
+</schedule>

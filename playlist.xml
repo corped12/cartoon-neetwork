@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Video playlist (VideoPlayerModel parser). The app looks for a param named mimeType
+  with value application/x-mpegURL (HLS), then plays ref/@href.
+  Replace the href with your Jellyfin HLS URL.
+-->
+<config>
+  <entry>
+    <param name="mimeType" value="application/x-mpegURL"/>
+    <ref href="http://JELLYFIN_IP:8096/Videos/ITEM_ID/master.m3u8?MediaSourceId=ITEM_ID&amp;api_key=YOUR_API_KEY&amp;VideoCodec=h264&amp;AudioCodec=aac"/>
+  </entry>
+</config>
